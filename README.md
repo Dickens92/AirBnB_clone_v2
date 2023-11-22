@@ -134,9 +134,29 @@ Usage: <class_name>.update(<_id>, <attribute_name>, <attribute_value>)
 ###### Example 3: Update User (by dictionary)
 Usage: <class_name>.update(<_id>, <dictionary>)
 ```
+
 (hbnb) User.update("98bea5de-9cb0-4d78-8a9d-c4de03521c30", {'name': 'Fred the Frog', 'age': 9})
 (hbnb)
 (hbnb) User.all()
 (hbnb) ["[User] (98bea5de-9cb0-4d78-8a9d-c4de03521c30) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'name': 'Fred the Frog', 'age': 9, 'id': '98bea5de-9cb0-4d78-8a9d-c4de03521c30', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
 ```
 <br>
+
+<center> <h1>ALX TASKS</h1> </center>
+*Updating Unitests*
+*Console Improvements*
+* script that prepares a MySQL server for the project*
+* a script that prepares a MySQL server for the project
+A database hbnb_test_db
+A new user hbnb_test (in localhost)
+The password of hbnb_test should be set to hbnb_test_pwd
+hbnb_test should have all privileges on the database hbnb_test_db (and only this database)
+hbnb_test should have SELECT privilege on the database performance_schema (and only this database)
+If the database hbnb_test_db or the user hbnb_test already exists, your script should not fail
+*
+*Update FileStorage: (models/engine/file_storage.py)*
+*change your storage engine and use SQLAlchemy*
+*models/user.py*
+*Update Place: (models/place.py)*
+*Review: (models/review.py)*
+*Update Amenity: (models/amenity.py)*
