@@ -142,18 +142,28 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 ```
 <br>
 
-<center> <h1>ALX TASKS</h1> </center>
-*Updating Unitests*
-*Console Improvements*
-* script that prepares a MySQL server for the project*
-* a script that prepares a MySQL server for the project
-A database hbnb_test_db
-A new user hbnb_test (in localhost)
-The password of hbnb_test should be set to hbnb_test_pwd
-hbnb_test should have all privileges on the database hbnb_test_db (and only this database)
-hbnb_test should have SELECT privilege on the database performance_schema (and only this database)
-If the database hbnb_test_db or the user hbnb_test already exists, your script should not fail
-*
+<center> <h2>ALX TASJS</h2> </center>
+1. Updating Unitests
+
+2. Console Improvements
+
+3. script that prepares a MySQL server for the project
+4. a script that prepares a MySQL server for the project
+5. A database hbnb_test_db
+6. A new user hbnb_test (in localhost)
+7. The password of hbnb_test should be set to hbnb_test_pwd
+8. hbnb_test should have all privileges on the database hbnb_test_db (and only this database)
+9. hbnb_test should have SELECT privilege on the database performance_schema (and only this database)
+10. If the database hbnb_test_db or the user hbnb_test already exists, your script should not fail
+
+
+
+
+
+
+
+
+
 *Update FileStorage: (models/engine/file_storage.py)*
 *change your storage engine and use SQLAlchemy*
 *models/user.py*
