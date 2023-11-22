@@ -142,7 +142,7 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 ```
 <br>
 
-<center> <h2>ALX TASJS</h2> </center>
+<center> <h2>ALX TASKS</h2> </center>
 1. Updating Unitests
 
 2. Console Improvements
